@@ -1,0 +1,30 @@
+#image {
+    width: 500px;
+    height: 500px
+}
+
+@keyframes animatedsquare {
+    0% {
+        background-color: brown;
+    }
+
+    25% {
+        background-color: aqua;
+    }
+
+    50% {
+        background-color: coral;
+    }
+}
+
+div:hover {
+    width: 500px;
+    height: 500px;
+    background-color: blueviolet;
+    animation-name: animatedsquare;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform: rotate(90deg);
+    transform: rotate(180deg);
+    transform: rotate(270deg);
+}
